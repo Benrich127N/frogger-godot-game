@@ -18,4 +18,4 @@ position = Vector2(34, 33)
 visible = false
 
 [node name="ExeciseObject" parent="." unique_id=230372895 instance=ExtResource("4_lbhrr")]
-position = Vector2(94, 243)
+position = Vector2(98, 243)
