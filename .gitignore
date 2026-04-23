@@ -1,0 +1,39 @@
+# --- Godot 4 specific ignores ---
+# This folder contains the imported assets and cache. 
+# It can be regenerated automatically by the engine.
+.godot/
+
+# --- Export ignores ---
+# Ignore binary exports (adjust extensions if you use others like .apk or .ios)
+*.exe
+*.zip
+*.tar
+*.gz
+*.app
+*.dmg
+*.pck
+*.jar
+*.apk
+*.aab
+*.html
+*.js
+*.wasm
+
+# --- Mobile/Android specific ---
+android/
+
+# --- Editor and OS specific ---
+# Ignore local editor settings (UIDs, open scripts, etc.)
+.import/
+*.tmp
+.DS_Store
+Thumbs.db
+
+# --- Mono/C# (Uncomment if using the .NET version) ---
+# .mono/
+# bin/
+# obj/
+# *.csproj
+# *.sln
+# Ignore all plugins/addons
+addons/

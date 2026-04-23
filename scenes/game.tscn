@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://r8e5vdmp0k17"]
+
+[ext_resource type="Texture2D" uid="uid://doghmovcgeltw" path="res://graphics/map.png" id="1_uwrxv"]
+[ext_resource type="PackedScene" uid="uid://dghd7rii024ea" path="res://scenes/player.tscn" id="2_yqjtg"]
+[ext_resource type="PackedScene" uid="uid://wlgt24o4q8jt" path="res://scenes/farm.tscn" id="3_lnu2h"]
+[ext_resource type="PackedScene" uid="uid://cx4d2qw7vbe2v" path="res://scenes/execise_object.tscn" id="4_lbhrr"]
+
+[node name="Game" type="Node2D" unique_id=141809360]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=858802762]
+position = Vector2(2, -1)
+texture = ExtResource("1_uwrxv")
+
+[node name="Player" parent="." unique_id=875634359 instance=ExtResource("2_yqjtg")]
+position = Vector2(34, 33)
+
+[node name="farm" parent="." unique_id=1490788337 instance=ExtResource("3_lnu2h")]
+visible = false
+
+[node name="ExeciseObject" parent="." unique_id=230372895 instance=ExtResource("4_lbhrr")]
+position = Vector2(94, 243)

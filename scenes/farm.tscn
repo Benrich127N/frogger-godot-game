@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://wlgt24o4q8jt"]
+
+[ext_resource type="Script" uid="uid://dh86bf51ylii6" path="res://scenes/farm.gd" id="1_kjpqf"]
+[ext_resource type="Texture2D" uid="uid://bkgrir378horu" path="res://graphics/player/player_simple.png" id="1_o03py"]
+
+[node name="farm" type="Node2D" unique_id=1490788337]
+script = ExtResource("1_kjpqf")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=22008952]
+scale = Vector2(6, 6)
+texture = ExtResource("1_o03py")
