@@ -4,4 +4,5 @@ var direction: Vector2 = Vector2(1,0)
 var speed: int = 5
 
 func _physics_process(delta: float) -> void:
-	position += direction * speed
+	if Input.is_action_pressed("right"):
+		position += direction * speed
